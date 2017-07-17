@@ -121,6 +121,8 @@ ALLOWED_HOSTS = ['*']
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(PROJECT_ROOT, 'media')
 
 STATIC_URL = '/static/'
 
