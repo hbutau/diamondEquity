@@ -1,1 +1,1 @@
-web: gunicorn --chdir sonata --log-file - diamondequity.wsgi:application
+web: gunicorn --chdir diamondequity --log-file - diamondequity.wsgi:application
