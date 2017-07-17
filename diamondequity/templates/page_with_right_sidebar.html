@@ -1,0 +1,384 @@
+{% load static from staticfiles %}
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="Residency theme">
+		<meta name="keywords" content="Residency,sale,buy,rent,pg,house,villa,apartment">
+		<meta name="author" content="Fortune Creations">
+		<meta name="viewport" content="width=device-width">
+
+		<title>Page with right sidebar</title>
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" />
+		<link href="{% static 'css/style.css' %}" rel="stylesheet" />
+		<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+	</head>
+	<body>
+		<header>
+			<div class="welcome_header">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6">
+							<h6>real estate solution for Agents and small companies</h6>
+						</div>
+						<div class="col-sm-6 text-right">
+							<ul class="welcome_header_menu">
+								<li class="facebook_icon"><a href="page_with_right_sidebar.html"><i class="fa fa-facebook"> </i></a> </li>
+								<li class="twitter_icon"><a href="page_with_right_sidebar.html"><i class="fa fa-twitter"> </i></a> </li>
+								<li class="google_plus_icon"><a href="page_with_right_sidebar.html"><i class="fa fa-google-plus"> </i></a> </li>
+								<li class="pinterest_icon"><a href="page_with_right_sidebar.html"><i class="fa fa-pinterest"> </i></a> </li>
+								<li class="youtube_icon"><a href="page_with_right_sidebar.html"><i class="fa fa-youtube-play"> </i></a> </li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="menu">
+						<nav class="navbar navbar-default">
+						  <div class="container-fluid">
+						    <!-- Brand and toggle get grouped for better mobile display -->
+						    <div class="navbar-header">
+						      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						        <span class="sr-only">Toggle navigation</span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+						      </button>
+						      <a class="navbar-brand" href="http://dreamvilla.fortune-creations.com/dreamvilla-multiple/index.html">
+						      	<img src="{% static 'images/logo.png' %}" alt="logo">
+						      </a>
+						    </div>
+
+						    <!-- Collect the nav links, forms, and other content for toggling -->
+						    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						      <ul class="nav navbar-nav nav_link pull-right">
+						        <li><a href="page_with_right_sidebar.html#" class="drop_down">HOME </a>
+						        	<ul class="submenu">
+						        	   <li><a href="http://dreamvilla.fortune-creations.com/dreamvilla-multiple/index.html">Home</a> </li>
+							           <li><a href="homepage-variation-1.html">homepage variation 1</a> </li>
+							        </ul>
+							    </li>
+						        <li><a href="page_with_right_sidebar.html#" class="drop_down">PAGES </a>
+						        	<ul class="submenu">
+							           <li><a href="about_us.html">About Us</a> </li>
+							           <li><a href="property-details.html">Property Detail</a> </li>
+							           <li><a href="blog.html">Blog</a> </li>
+							           <li><a href="blog_post.html">Blog Detail</a> </li>
+							           <li><a href="gallery_2_columns.html">Gallery 2 Columns</a> </li>
+							           <li><a href="gallery_3_columns.html">Gallery 3 Columns</a> </li>
+							           <li><a href="shortcodes.html">Shortcodes</a> </li>
+							           <li><a href="page_with_left_sidebar.html">page with left sidebar</a> </li>
+							           <li><a href="page_with_right_sidebar.html">page with right sidebar</a> </li>
+							           <li><a href="faq.html">FAQ</a> </li>
+							           <li><a href="contact.html">Contact us</a> </li>
+							        </ul>
+						        </li>
+						        <li><a href="page_with_right_sidebar.html#" class="drop_down">PROPERTIES</a>
+						        	<ul class="submenu">
+							           <li><a href="property-listing-list.html">List View</a> </li>
+							           <li><a href="property-listing-grid.html">Grid View</a> </li>
+							           <li><a href="property-listing-map.html">Map View</a> </li>
+							           <li><a href="property-details.html">Property Detail</a> </li>
+							        </ul>
+						        </li>
+						        <li><a href="page_with_right_sidebar.html#" class="drop_down">GALLERY </a>
+						        	<ul class="submenu">
+							           <li><a href="gallery_2_columns.html">Gallery 2 Columns</a> </li>
+							           <li><a href="gallery_3_columns.html">Gallery 3 Columns</a> </li>
+							        </ul>
+						        </li>
+						        <li><a href="page_with_right_sidebar.html#" class="drop_down">BLOG </a>
+						        	<ul class="submenu">
+							           <li><a href="blog.html">Blog</a> </li>
+							           <li><a href="blog_post.html">Blog Post</a> </li>
+							        </ul>
+						        </li>
+						        <li><a href="contact.html">CONTACT </a> </li>
+						      </ul>
+						    </div><!-- /.navbar-collapse -->
+						  </div><!-- /.container-fluid -->
+						</nav>
+				</div>
+				<div class="contact_info">
+				    <div class="contact_detial">
+				  		<div class="phone_icon">
+				  			<i class="fa fa-phone"> </i>
+				  		</div>
+				  		<div class="phone_number">
+				  			<h5>call us now</h5>
+				  			<h2 class="phone_number_h2">215-123-4567</h2>
+				  		</div>
+				  	</div>
+				</div>
+			</div>
+   			<div class="inner-page-header-area"> <img alt="banner-image" src="images/innerpage_header.jpg">
+				<div class="container">
+					<div class="inner_slider_text">
+						<div class="property_info_header">
+							<h2> Page with right sidebar </h2><h5><a href="http://dreamvilla.fortune-creations.com/dreamvilla-multiple/index.html">Home</a> &gt; Page with right sidebar </h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="alert-container">
+           <div class="alert alert-success alert-dismissible" role="alert">
+			  <button type="button" class="close"><span aria-hidden="true">&times;</span></button>
+			  <strong>Success!</strong> <span class="alert-message">Better check yourself, you're not looking too good.</span>
+			</div>
+		</div>
+		<section>
+			<div class="inner-page-right-sidebar">
+				<div class="container">
+					<div class="row">
+						<div id="inner-page-right-sidebar-content-area" class="col-md-8 col-sm-12 col-xs-12">
+							<h1>WE HAVE ADDED NEW FEATURES TO DreamVilla</h1>
+							<img src="{% static 'images/house-image.jpg' %}" class="img-responsive" alt="house_image"/>
+							<p class="inner-page-full-description">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque massa ipsum, efficitur a fermentum
+								sed, suscipit sit amet arcu. Ut ut finibus tortor, eu ultrices turpis. Mauris vitae elit nec diam elementum
+								elementum. Mauris ante quam, consequat ac nibh placerat, lacinia sollicitudin mi. Duis facilisis nibh quam,
+								sit amet interdum tellus sollicitudin tempor. Curabitur aliquam erat in nisl lobortis, ut pellentesque lectus
+								viverra. Aenean sodales aliquet arcu at aliquam.
+							</p>
+							<p class="inner-page-full-description">
+								Vestibulum quam nisi, pretium a nibh sit amet, consectetur hendrerit mi. Aenean imperdiet lacus sit amet
+								elit porta, et malesuada erat bibendum. Cras sed nunc massa. Quisque tempor dolor sit amet tellus malesu
+								ada, malesuada iaculis eros dignissim. Aenean vitae diam id lacus fringilla maximus.  Mauris auctor efficitur
+								nisl, non blandit urna fermentum nec. Vestibulum non leo libero.
+							</p>
+
+							<ul class="inner-page-bullet-ul">
+								<li>Feature Point 1 will appear here</li>
+								<li>Some Poiner goes here</li>
+								<li>Lorem ipsum text will apprear here</li>
+								<li>You dont need to worry about the payment</li>
+								<li>Feature Point 1 will appear here</li>
+								<li>Some Poiner goes here</li>
+								<li>Lorem ipsum text will apprear here</li>
+								<li>You dont need to worry about the payment</li>
+							</ul>
+
+							<div class="inner-page-banner-paragraph">
+								<p> Vestibulum quam nisi, pretium a nibh sit amet, consectetur hendrerit mi.
+									amet elit porta, et malesuada erat bibendum. Cras sed nunc massa.
+									tellus malesuada, malesuada iaculis eros dignissim.
+								</p>
+							</div>
+
+							<p>
+								Vestibulum quam nisi, pretium a nibh sit amet, consectetur hendrerit mi. Aenean imperdiet lacus sit amet
+								elit porta, et malesuada erat bibendum. Cras sed nunc massa. Quisque tempor dolor sit amet tellus malesu
+								ada, malesuada iaculis eros dignissim. Aenean vitae diam id lacus fringilla maximus.  Mauris auctor efficitur
+								nisl, non blandit urna fermentum nec. Vestibulum non leo libero.
+							</p>
+
+							<div id="inner-page-left-img" class="row">
+								<div class="col-md-6 col-sm-6 col-xs-12">
+									<img src="{% static 'images/white-house.jpg' %}" class="img-responsive" alt="white_house">
+								</div>
+								<div id="inner-page-right-side-left-area" class="col-md-6 col-sm-6 col-xs-12">
+									<h2 class="inner-page-left-title">Image On Left</h2>
+									<p>	Cras sed nunc massa. Quisque tempor dolor sit ame
+										t tellus malesu ada, malesuada iaculis eros
+										dignissim.
+									</p>
+									<ul class="inner-page-left-single-line">
+										<li>Feature Point 1 will appear here</li>
+										<li>Some Poiner goes here</li>
+										<li>Lorem ipsum text will apprear here</li>
+										<li>You dont need to worry about the payment</li>
+									</ul>
+								</div>
+							</div>
+							<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at vel
+								it elit. In tincidunt lectus neque, non
+							</h2>
+							<p>
+								Vestibulum quam nisi, pretium a nibh sit amet, consectetur hendrerit mi. Aenean imperdiet lacus sit amet
+								elit porta, et malesuada erat bibendum. Cras sed nunc massa. Quisque tempor dolor sit amet tellus malesu
+								ada, malesuada iaculis eros dignissim. Aenean vitae diam id lacus fringilla maximus.  Mauris auctor efficitur
+								nisl, non blandit urna fermentum nec. Vestibulum non leo libero.
+							</p>
+							<div id="inner-page-right-img" class="row">
+								<div id="inner-page-left-side-right-area" class="col-md-6 col-sm-6 col-xs-12">
+									<h2 class="inner-page-right-title">Image On Right</h2>
+									<p>	Cras sed nunc massa. Quisque tempor dolor sit ame
+										t tellus malesu ada, malesuada iaculis eros
+										dignissim.
+									</p>
+									<ul class="inner-page-right-single-line">
+										<li>Feature Point 1 will appear here</li>
+										<li>Some Poiner goes here</li>
+										<li>Lorem ipsum text will apprear here</li>
+										<li>You dont need to worry about the payment</li>
+										</ul>
+								</div>
+								<div class="col-md-6 col-sm-6 col-xs-12">
+									<img src="{% static 'images/right-side-image.jpg' %}" class="img-responsive" alt="right_side_image">
+								</div>
+							</div>
+							<div class="inner-page-shedule">
+								<div class="schedule_visit_btn">
+									<a href="javascript:void(0)" data-toggle="modal" data-target="#contact_our_agent">schedule visit</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="blog_page_information">
+								<div class="blog_info blog-thumbnail">
+									<div class="blogimagedescription">
+										<h3>Categories</h3>
+									</div>
+									<ul class="archieves">
+										<li><a href="page_with_right_sidebar.html">Property updates</a></li>
+										<li><a href="page_with_right_sidebar.html">Near by places</a></li>
+										<li><a href="page_with_right_sidebar.html">Aminities at sabestian villa</a></li>
+										<li><a href="page_with_right_sidebar.html">University near villa</a></li>
+										<li><a href="page_with_right_sidebar.html">Property type and title clear</a></li>
+									</ul>
+								</div>
+								<div class="blog_info blog-thumbnail">
+									<div class="blogimagedescription">
+										<h3>Popular posts</h3>
+									</div>
+									<ul class="archieves">
+										<li>
+											<div class="col-md-4 padding_none">
+												<div class="blogimage_thumbnail">
+													<img src="{% static 'images/blog1.jpg' %}" class="img-responsive" alt="blog1 image">
+												</div>
+											</div>
+											<div class="col-md-8">
+												<div class="blogimagedescription">
+													<h3><a class="inner-page-blog-sidebar-post-title" href="page_with_right_sidebar.html">WE HAVE ADDED NEW FEATURES TO DreamVilla</a></h3>
+													<p class="detail">
+														<span><a href="page_with_right_sidebar.html">June 12,2015</a></span>
+														<span><a href="page_with_right_sidebar.html">John doe</a></span>
+													</p>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="col-md-4 padding_none">
+												<div class="blogimage_thumbnail">
+													<img src="{% static 'images/blog2.jpg' %}" class="img-responsive" alt="blog1 image">
+												</div>
+											</div>
+											<div class="col-md-8">
+												<div class="blogimagedescription">
+													<h3><a class="inner-page-blog-sidebar-post-title" href="page_with_right_sidebar.html">UNIVERSITY NEAR TO SABESTIAN VILLA</a></h3>
+													<p class="detail">
+														<span><a href="page_with_right_sidebar.html">June 12,2015</a></span>
+														<span><a href="page_with_right_sidebar.html">John doe</a></span>
+													</p>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="col-md-4 padding_none">
+												<div class="blogimage_thumbnail">
+													<img src="{% static 'images/blog3.jpg' %}" class="img-responsive" alt="blog1 image">
+												</div>
+											</div>
+											<div class="col-md-8">
+												<div class="blogimagedescription">
+													<h3><a class="inner-page-blog-sidebar-post-title" href="page_with_right_sidebar.html">LAW FIRM OPENED NEAR TO VILLA</a></h3>
+													<p class="detail">
+														<span><a href="page_with_right_sidebar.html">June 12,2015</a></span>
+														<span><a href="page_with_right_sidebar.html">John doe</a></span>
+													</p>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+								<div class="blog_info blog-thumbnail">
+									<div class="blogimagedescription">
+										<h3>Archieves</h3>
+									</div>
+									<ul class="archieves">
+										<li><a href="page_with_right_sidebar.html">MAY 2015</a></li>
+										<li><a href="page_with_right_sidebar.html">APRIL 2015</a></li>
+										<li><a href="page_with_right_sidebar.html">FEBRUARY 2015</a></li>
+										<li><a href="page_with_right_sidebar.html">JANUARY 2015</a></li>
+										<li><a href="page_with_right_sidebar.html">NAOVEMBER 2014</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="modal fade" id="contact_our_agent" tabindex="-1" role="dialog">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content" id="model-contact-form">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<h4 class="modal-title" id="image_lightbox_label">Contact Our Agent</h4>
+					</div>
+					<div class="modal-body">
+						<div class="contact-form model-contact-form" id="contact-form">
+							<ul class="agent-info">
+								<li>
+									<img class="agent-img" src="{% static 'images/agent-photo.jpg' %}" alt="agent_photo">
+									<h5>Johnathan Doe <span>(Remax Certified Agent)</span></h5>
+									<p><span class="glyphicon glyphicon-earphone"></span> 604-786-4440 &nbsp;&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-envelope"></span> johnathan@gmail.com</p>
+								</li>
+								<li>
+									<img src="{% static 'images/agent-logo.jpg' %}" alt="agent_logo">
+								</li>
+							</ul>
+							<form class="agnet-contact-form" name="contact_form" method="post" action="http://dreamvilla.fortune-creations.com/dreamvilla-multiple/functions.php">
+								<ul>
+									<li>
+										<input type="text" name="full_name" id="full_name" placeholder="Full Name" required>
+										<input type="number" name="phone_number" id="phone_number" placeholder="Phone Number" required>
+										<input type="email" name="email_address" id="email_address" placeholder="Email Address" required>
+									</li>
+									<li>
+										<textarea name="message" id="message" placeholder="Message" required></textarea>
+										<input type="submit" name="sendmessage" class="send-message" value="SUBMIT NOW" />
+									</li>
+								</ul>
+							</form>
+						</div>
+						<p>&nbsp;</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="footer">
+				<span class="footer_copyright_text">Copyright 2015.All Rights Reserved by DreamVilla - </span><span class="footer_theme_title">Multi Property Theme</span>
+			</div>
+		</footer>
+		<script src="{% static 'js/jquery-2.1.4.min.js' %}"></script>
+		<script src="{% static 'js/bootstrap.min.js' %}"></script>
+		<script src="{% static 'js/formsubmit.js' %}"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				function centerModals(){
+				  $('.modal').each(function(i){
+				    var $clone = $(this).clone().css('display', 'block').appendTo('body');
+				    var top = Math.round(($clone.height() - $clone.find('.modal-content').height()) / 2);
+				    top = top > 0 ? top : 0;
+				    $clone.remove();
+				    $(this).find('.modal-content').css("margin-top", top);
+				  });
+				}
+				$('.modal').on('show.bs.modal', centerModals);
+				$(window).on('resize', centerModals);
+			});
+		</script>
+	</body>
+</html>

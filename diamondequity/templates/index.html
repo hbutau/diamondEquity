@@ -1,0 +1,1590 @@
+{% load static from staticfiles %}
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="Residency theme">
+		<meta name="keywords" content="Residency,sale,buy,rent,pg,house,villa,apartment">
+		<meta name="author" content="Fortune Creations">
+		<meta name="viewport" content="width=device-width">
+		<title>Diamond Equity</title>
+
+		<link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
+		<link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" />
+		<link href="{% static 'css/style.css' %}" rel="stylesheet" />
+		<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link rel="shortcut icon" type="image/x-icon" href="{% static 'images/favicon.ico' %}" />
+
+	</head>
+	<body>
+		<header>
+			
+			<div class="container">
+				<div class="menu">
+						<nav class="navbar navbar-default">
+						  <div class="container-fluid">
+						    <!-- Brand and toggle get grouped for better mobile display -->
+						    <div class="navbar-header">
+						      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						        <span class="sr-only">Toggle navigation</span>
+						        <span class="icon-bar"> </span>
+						        <span class="icon-bar"> </span>
+						        <span class="icon-bar"> </span>
+						      </button>
+						      <a class="navbar-brand" href="http://dreamvilla.fortune-creations.com/dreamvilla-multiple/index.html">
+						      	<img src="{% static 'images/logo.png' %}" alt="logo">
+						      </a>
+						    </div>
+
+						    <!-- Collect the nav links, forms, and other content for toggling -->
+						    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						      <ul class="nav navbar-nav nav_link pull-right">
+						        <li><a href="index.html#" class="drop_down">HOME </a>
+						        	<ul class="submenu">
+						        	   <li><a href="http://dreamvilla.fortune-creations.com/dreamvilla-multiple/index.html">Home</a> </li>
+							           <li><a href="homepage-variation-1.html">homepage variation 1</a> </li>
+							        </ul>
+							    </li>
+						        <li><a href="index.html#" class="drop_down">PAGES </a>
+						        	<ul class="submenu">
+							           <li><a href="about_us.html">About Us</a> </li>
+							           <li><a href="property-details.html">Property Detail</a> </li>
+							           <li><a href="blog.html">Blog</a> </li>
+							           <li><a href="blog_post.html">Blog Detail</a> </li>
+							           <!-- <li><a href="gallery_2_columns.html">Gallery 2 Columns</a> </li> -->
+							           <!-- <li><a href="gallery_3_columns.html">Gallery 3 Columns</a> </li> -->
+							           <!-- <li><a href="shortcodes.html">Shortcodes</a> </li> -->
+							           <li><a href="page_with_left_sidebar.html">page with left sidebar</a> </li>
+							           <li><a href="page_with_right_sidebar.html">page with right sidebar</a> </li>
+							           <!-- <li><a href="faq.html">FAQ</a> </li> -->
+							           <li><a href="contact.html">Contact us</a> </li>
+							        </ul>
+						        </li>
+						        <li><a href="index.html#" class="drop_down">PROPERTIES</a>
+						        	<ul class="submenu">
+							           <li><a href="property-listing-list.html">List View</a> </li>
+							           <li><a href="property-listing-grid.html">Grid View</a> </li>
+							           <li><a href="property-listing-map.html">Map View</a> </li>
+							           <li><a href="property-details.html">Property Detail</a> </li>
+							        </ul>
+						        </li>
+						        <li><a href="index.html#" class="drop_down">GALLERY </a>
+						        	<ul class="submenu">
+							           <li><a href="gallery_2_columns.html">Gallery 2 Columns</a> </li>
+							           <li><a href="gallery_3_columns.html">Gallery 3 Columns</a> </li>
+							        </ul>
+						        </li>
+						        <li><a href="index.html#" class="drop_down">BLOG </a>
+						        	<ul class="submenu">
+							           <li><a href="blog.html">Blog</a> </li>
+							           <li><a href="blog_post.html">Blog Post</a> </li>
+							        </ul>
+						        </li>
+						        <li><a href="contact.html">CONTACT </a> </li>
+						      </ul>
+						    </div><!-- /.navbar-collapse -->
+						  </div><!-- /.container-fluid -->
+						</nav>
+				</div>
+				<div class="contact_info">
+				    <div class="contact_detial">
+				  		<div class="phone_icon">
+				  			<i class="fa fa-phone"> </i>
+				  		</div>
+				  		<div class="phone_number">
+				  			<h5>call us now</h5>
+				  			<h2 class="phone_number_h2"><h4>+260 211-269-577 <h4></h2>
+				  		</div>
+				  	</div>
+				</div>
+			</div>
+			<div class="header">
+				<div class="header_slider_container">
+					<figure class="image_header active_image">
+						<img src="{% static 'images/dreamvilla-slide1.jpg' %}" alt="header" />
+						<figcaption>
+							<div class="container home-page-slider-header" id="home-page-slider-header">
+								<div class="slider_text">
+									<div class="property_info_header">
+										<label>On Sale</label>
+										<h2>Residential plots</h2>
+										<h5>Lusaka West, Lusaka, Zambia</h5>
+
+										<div class="h4">
+											<p>
+												size 32x30<i class="fa fa-circle"> </i>
+											</p>
+											<p>
+												area Lusaka West <i class="fa fa-circle"> </i>garage 1
+											</p>
+										</div>
+										<h2 class="price">K2,689,500</h2>
+									</div>
+								</div>
+							</div>
+						</figcaption>
+				</figure>
+					<figure class="image_header home-page-slider-header">
+						<img src="{% static 'images/dreamvilla-slide2.jpg' %}" alt="header" />
+						<figcaption>
+							<div class="container">
+								<div class="slider_text">
+									<div class="property_info_header">
+										<h2>welcome to Diamond Equity</h2>
+										<p class="know">Lorem ipsum dolor sit amet, consectetur ligula convallis, vel tincidunt ipsumsollicitudin. Duis iaculis,</p>
+										<a href="javascript:void(0)" class="know_more">Know More</a>
+									</div>
+								</div>
+							</div>
+						</figcaption>
+					</figure>
+					<button class="previous_image_btn" type="button">
+						<span class="glyphicon glyphicon-menu-left"> </span>
+					</button>
+					<button class="next_image_btn" type="button">
+						<span class="glyphicon glyphicon-menu-right"> </span>
+					</button>
+				</div>
+			</div>
+		</header>
+		<div class="alert-container">
+			<div class="alert alert-success alert-dismissible" role="alert">
+				<button type="button" class="close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+				<strong>Success!</strong><span class="alert-message">Better check yourself, you're not looking too good.</span>
+			</div>
+		</div>
+		<section>
+			<div class="about-city-estate">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+							<h3 class="section-heading">About Diamond Equity</h3>
+							<b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ligula convallis, vel tincidunt ipsum posuere</b>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor arcu non ligula convallis, vel tincidunt ipsum posuere. Fusce sodales lacus ut pellentessollicitudin. Duis iaculis, arcu ut hendrerit pharetra, elit augue pulvinar magna, a consectetur eros quam eu orci. </p>
+							<!-- <h4>Our motto</h4> -->
+							<!-- <p class="banner text-center"> Location is everything</p> -->
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+							<h3 class="section-heading">We are proud members of</h3>
+							<div class="round-members-logo">
+								<img src="{% static 'images/valuable-clients-2.png' %}" alt="round member">
+								<img src="{% static 'images/valuable-clients-3.png' %}" alt="round member">
+								<img src="{% static 'images/valuable-clients-5.png' %}" alt="round member">
+							</div>
+							<a href="index.html#" data-toggle="modal" data-target="#property-video-model"><img src="images/about_video.png" alt="about video" class="img-responsive"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="services-we-offer">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+							<h3 class="section-heading">Services we offer</h3>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+							<a href="index.html#">View all services</a>
+						</div>
+					</div>
+					<div class="row services-we-offer-part">
+						<div class="col-sm-6 col-md-2 col-lg-2">
+							<img src="{% static 'images/paying_guest.png' %}" alt="services img">
+							<h4>Property Management</h4>
+							<p>Lorem ipsum dolor sit amet, consecteturin ligula convallis, vel tincidunt ipsum posusollicitudin. Duis iaculis.</p>
+						</div>
+						<div class="col-sm-6 col-md-2 col-lg-2">
+							<img src="{% static 'images/buying_and_selling.png' %}" alt="services img">
+							<h4>Conveyancing</h4>
+							<p>Lorem ipsum dolor sit amet, consecteturin ligula convallis, vel tincidunt ipsum posusollicitudin. Duis iaculis.</p>
+						</div>
+						<div class="col-sm-6 col-md-2 col-lg-2">
+							<img src="{% static 'images/finance_service.png' %}" alt="services img">
+							<h4>Consultancy Services</h4>
+							<p>Lorem ipsum dolor sit amet, consecteturin ligula convallis, vel tincidunt ipsum posusollicitudin. Duis iaculis.</p>
+						</div>
+						<div class="col-sm-6 col-md-2 col-lg-2">
+							<img src="{% static 'images/legal_advice.png' %}" alt="services img">
+							<h4>Real Estate Agency</h4>
+							<p>Lorem ipsum dolor sit amet, consecteturin ligula convallis, vel tincidunt ipsum posusollicitudin. Duis iaculis.</p>
+						</div>
+                        <div class="col-sm-6 col-md-2 col-lg-2">
+							<img src="{% static 'images/legal_advice.png' %}" alt="services img">
+							<h4>Real Property Management</h4>
+							<p>Lorem ipsum dolor sit amet, consecteturin ligula convallis, vel tincidunt ipsum posusollicitudin. Duis iaculis.</p>
+						</div>
+                        <div class="col-sm-6 col-md-2 col-lg-2">
+							<img src="{% static 'images/legal_advice.png' %}" alt="services img">
+							<h4>Property Valuations</h4>
+							<p>Lorem ipsum dolor sit amet, consecteturin ligula convallis, vel tincidunt ipsum posusollicitudin. Duis iaculis.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="multiple-featured-properties">
+				<div class="container">
+					<h3 class="section-heading">Featured Properties</h3>
+					<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+						<div class="carousel-inner" role="listbox">
+							<div class="item active">
+								<div class="row">
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-1.png' %}" alt="featured-properties-1" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<div class="featured-properties-detail">
+											<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+											<p class="featured-properties-price">K530,600</p>
+											<ul>
+												<li class="left"><img src="{% static 'images/bathrooms_icon.png' %}" class="icons" alt="Bathrooms Icon">Bathrooms</li>
+												<li class="right"><span>2</span> </li>
+											</ul>
+											<ul>
+												<li class="left"><img src="{% static 'images/beds_icon.png' %}" class="icons" alt="Beds Icon">Beds</li>
+												<li class="right"><span>2</span> </li>
+											</ul>
+											<ul>
+												<li class="left"><img src="{% static 'images/garages_icon.png' %}" class="icons" alt="Garages Icon">Garages</li>
+												<li class="right"><span>1</span> </li>
+											</ul>
+										</div>
+										<div class="featured-properties-address-div">
+											<p class="featured-properties-address"><i class="fa fa-map-marker fa-lg"> </i>Lusaka City</p>
+										</div>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/feature-property.png' %}" alt="featured-properties-3" class="img-responsive">
+											<label>On Rent</label>
+										</div>
+										<div class="featured-properties-detail">
+											<a href="index.html#"><h6>Land</h6></a>
+											<p class="featured-properties-price">K731,000</p>
+											<ul>
+												<li class="left"><img src="{% static 'images/bathrooms_icon.png' %}" class="icons" alt="Bathrooms Icon">size(sqm)</li>
+												<li class="right"><span>1103</span> </li>
+											</ul>
+											<ul>
+												<li class="left"><img src="{% static 'images/beds_icon.png' %}" class="icons" alt="Beds Icon">location</li>
+												<li class="right"><span>Chif</span> </li>
+											</ul>
+											<ul>
+												<li class="left"><img src="{% static 'images/garages_icon.png' %}" class="icons" alt="Garages Icon">deposite required</li>
+												<li class="right"><span>20%</span> </li>
+											</ul>
+										</div>
+										<div class="featured-properties-address-div">
+											<p class="featured-properties-address"><i class="fa fa-map-marker fa-lg"> </i>Lusaka City</p>
+										</div>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-5.png' %}" alt="featured-properties-2" class="img-responsive">
+											<label>On Rent</label>
+										</div>
+										<div class="featured-properties-detail">
+											<a href="index.html#"><h6>Residential Plot, Lusaka</h6></a>
+											<p class="featured-properties-price">K419,250</p>
+											<ul>
+												<li class="left"><img src="{% static 'images/bathrooms_icon.png' %}" class="icons" alt="Bathrooms Icon">Bathrooms</li>
+												<li class="right"><span>2</span> </li>
+											</ul>
+											<ul>
+												<li class="left"><img src="{% static 'images/beds_icon.png' %}" class="icons" alt="Beds Icon">Beds</li>
+												<li class="right"><span>2</span> </li>
+											</ul>
+											<ul>
+												<li class="left"><img src="{% static 'images/garages_icon.png' %}" class="icons" alt="Garages Icon">Garages</li>
+												<li class="right"><span>1</span> </li>
+											</ul>
+										</div>
+										<div class="featured-properties-address-div">
+											<p class="featured-properties-address"><i class="fa fa-map-marker fa-lg"> </i>Lusaka City</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="row">
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-5.png' %}" alt="featured-properties-2" class="img-responsive">
+											<label>On Rent</label>
+										</div>
+										<div class="featured-properties-detail">
+											<a href="index.html#"><h6>Residential Plot, Lusaka</h6></a>
+											<p class="featured-properties-price">K419,250</p>
+											<ul>
+												<li class="left"><img src="{% static 'images/bathrooms_icon.png' %}" class="icons" alt="Bathrooms Icon">Bathrooms</li>
+												<li class="right"><span>2</span> </li>
+											</ul>
+											<ul>
+												<li class="left"><img src="{% static 'images/beds_icon.png' %}" class="icons" alt="Beds Icon">Beds</li>
+												<li class="right"><span>2</span> </li>
+											</ul>
+											<ul>
+												<li class="left"><img src="{% static 'images/garages_icon.png' %}" class="icons" alt="Garages Icon">Garages</li>
+												<li class="right"><span>1</span> </li>
+											</ul>
+										</div>
+										<div class="featured-properties-address-div">
+											<p class="featured-properties-address"><i class="fa fa-map-marker fa-lg"> </i>Lusaka City</p>
+										</div>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/feature-property.png' %}{% static '" alt="featured-prop' %}erties-3" class="img-responsive">
+											<label>On Rent</label>
+										</div>
+										<div class="featured-properties-detail">
+											<a href="index.html#"><h6>Bill Tower, Survey, NJ</h6></a>
+											<p class="featured-properties-price">K731,000</p>
+											<ul>
+												<li class="left"><img src="{% static 'images/bathrooms_icon.png' %}" class="icons" alt="Bathrooms Icon">Bathrooms</li>
+												<li class="right"><span>2</span> </li>
+											</ul>
+											<ul>
+												<li class="left"><img src="{% static 'images/beds_icon.png' %}" class="icons" alt="Beds Icon">Beds</li>
+												<li class="right"><span>2</span> </li>
+											</ul>
+											<ul>
+												<li class="left"><img src="{% static 'images/garages_icon.png' %}" class="icons" alt="Garages Icon">Garages</li>
+												<li class="right"><span>1</span> </li>
+											</ul>
+										</div>
+										<div class="featured-properties-address-div">
+											<p class="featured-properties-address"><i class="fa fa-map-marker fa-lg"> </i>Lusaka City</p>
+										</div>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-1.png' %}" alt="featured-properties-1" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<div class="featured-properties-detail">
+											<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+											<p class="featured-properties-price">K530,600</p>
+											<ul>
+												<li class="left"><img src="{% static 'images/bathrooms_icon.png' %}" class="icons" alt="Bathrooms Icon">Bathrooms</li>
+												<li class="right"><span>2</span> </li>
+											</ul>
+											<ul>
+												<li class="left"><img src="{% static 'images/beds_icon.png' %}" class="icons" alt="Beds Icon">Beds</li>
+												<li class="right"><span>2</span> </li>
+											</ul>
+											<ul>
+												<li class="left"><img src="{% static 'images/garages_icon.png' %}" class="icons" alt="Garages Icon">Garages</li>
+												<li class="right"><span>1</span> </li>
+											</ul>
+										</div>
+										<div class="featured-properties-address-div">
+											<p class="featured-properties-address"><i class="fa fa-map-marker fa-lg"> </i>Lusaka City</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="left-right-arrow">
+							<a class="left carousel-control" href="index.html#myCarousel" role="button" data-slide="prev">
+						    	<img src="{% static 'images/arrow-left.png' %}" alt="arrow left" class="pull-left">
+						  	</a>
+						  	<a class="right carousel-control" href="index.html#myCarousel" role="button" data-slide="next">
+						    	<img src="{% static 'images/arrow-right.png' %}" alt="arrow right" class="pull-right">
+						 	</a>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="multiple-recent-properties">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4">
+							<h3 class="section-heading recent-properties">Recent Properties</h3>
+						</div>
+						<div class="col-md-8">
+							<ul class="property-type">
+								<li><a href="javascript:void(0);" class="active" data-id="Residential">Residential</a> </li>
+								<li><a href="javascript:void(0);" data-id="Commercial">LAND</a> </li>
+								<li><a href="javascript:void(0);" data-id="FurnishedHomes">FOR RENT</a> </li>
+								<li><a href="javascript:void(0);" data-id="PayingGuest">FOR SALE</a> </li>
+								<!-- <li><a href="javascript:void(0);" data-id="LandAndPlot">Land & Plot</a> </li> -->
+							</ul>
+						</div>
+					</div>
+					<div class="row">
+						<div id="myCarousel1" data-target="Residential" class="active carousel slide carousel-slide-recent-property" data-ride="carousel" data-interval="false">
+							<div class="carousel-inner" role="listbox">
+    							<div class="item active">
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-1.png' %}" alt="recent-properties-1" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-2.png' %}" alt="recent-properties-2" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-3.png' %}" alt="recent-properties-3" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-4.png' %}" alt="recent-properties-4" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-5.png' %}" alt="recent-properties-5" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-6.png' %}" alt="recent-properties-6" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+								</div>
+								<div class="item">
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-5.png' %}" alt="recent-properties-5" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-6.png' %}" alt="recent-properties-6" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-2.png' %}" alt="recent-properties-2" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-3.png' %}" alt="recent-properties-3" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-1.png' %}" alt="recent-properties-1" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-4.png' %}" alt="recent-properties-4" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+								</div>
+								<div class="item">
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-4.png' %}" alt="recent-properties-4" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-5.png' %}" alt="recent-properties-5" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-6.png' %}" alt="recent-properties-6" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-1.png' %}" alt="recent-properties-1" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-2.png' %}" alt="recent-properties-2" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-3.png' %}" alt="recent-properties-3" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+								</div>
+							</div>
+							<ol class="carousel-indicators">
+							    <li data-target="#myCarousel1" data-slide-to="0" class="active"> </li>
+							    <li data-target="#myCarousel1" data-slide-to="1"> </li>
+							    <li data-target="#myCarousel1" data-slide-to="2"> </li>
+							</ol>
+						</div>
+						<div id="myCarousel2" data-target="Commercial" class="carousel slide carousel-slide-recent-property" data-ride="carousel" data-interval="false">
+							<div class="carousel-inner" role="listbox">
+    							<div class="item active">
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-3.png' %} " alt="recent-properties-3" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-4.png' %} " alt="recent-properties-4" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-5.png' %} " alt="recent-properties-5" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-1.png' %}" alt="recent-properties-1" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-2.png' %}" alt="recent-properties-2" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-6.png' %}" alt="recent-properties-6" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+								</div>
+								<div class="item">
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-4.png' %}" alt="recent-properties-4" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-5.png' %}" alt="recent-properties-5" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-6.png' %}" alt="recent-properties-6" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-1.png' %}" alt="recent-properties-1" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-2.png' %}" alt="recent-properties-2" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-3.png' %}" alt="recent-properties-3" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+								</div>
+								<div class="item">
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-2.png' %}" alt="recent-properties-2" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-3.png' %}" alt="recent-properties-3" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-5.png' %}" alt="recent-properties-5" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-6.png' %}" alt="recent-properties-6" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-1.png' %}" alt="recent-properties-1" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-4.png' %}" alt="recent-properties-4" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+								</div>
+							</div>
+							<ol class="carousel-indicators">
+							    <li data-target="#myCarousel2" data-slide-to="0" class="active"> </li>
+							    <li data-target="#myCarousel2" data-slide-to="1"> </li>
+							    <li data-target="#myCarousel2" data-slide-to="2"> </li>
+							</ol>
+						</div>
+						<div id="myCarousel3" data-target="FurnishedHomes" class="carousel slide carousel-slide-recent-property" data-ride="carousel" data-interval="false">
+							<div class="carousel-inner" role="listbox">
+    							<div class="item active">
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="images/recent-property-4.png" alt="recent-properties-4" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="images/recent-property-5.png" alt="recent-properties-5" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="images/recent-property-6.png" alt="recent-properties-6" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="images/recent-property-1.png" alt="recent-properties-1" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="images/recent-property-2.png" alt="recent-properties-2" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="images/recent-property-3.png" alt="recent-properties-3" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+								</div>
+								<div class="item">
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="images/recent-property-3.png" alt="recent-properties-3" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="images/recent-property-1.png" alt="recent-properties-1" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="images/recent-property-4.png" alt="recent-properties-4" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="images/recent-property-5.png" alt="recent-properties-5" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-6.png' %}" alt="recent-properties-6" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-2.png' %}" alt="recent-properties-2" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+								</div>
+								<div class="item">
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-6.png' %}" alt="recent-properties-6" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-1.png' %}" alt="recent-properties-1" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-2.png' %}" alt="recent-properties-2" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-3.png' %}" alt="recent-properties-3" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-4.png' %}" alt="recent-properties-4" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-5.png' %}" alt="recent-properties-5" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+								</div>
+							</div>
+							<ol class="carousel-indicators">
+							    <li data-target="#myCarousel3" data-slide-to="0" class="active"> </li>
+							    <li data-target="#myCarousel3" data-slide-to="1"> </li>
+							    <li data-target="#myCarousel3" data-slide-to="2"> </li>
+							</ol>
+						</div>
+						<div id="myCarousel4" data-target="PayingGuest" class="carousel slide carousel-slide-recent-property" data-ride="carousel" data-interval="false">
+							<div class="carousel-inner" role="listbox">
+    							<div class="item active">
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-2.png' %}" alt="recent-properties-2" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-3.png' %}" alt="recent-properties-3" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-1.png' %}" alt="recent-properties-1" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-4.png' %}" alt="recent-properties-4" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-5.png' %}" alt="recent-properties-5" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-6.png' %}" alt="recent-properties-6" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+								</div>
+								<div class="item">
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-2.png' %}" alt="recent-properties-2" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-3.png' %}" alt="recent-properties-3" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-1.png' %}" alt="recent-properties-1" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-5.png' %}" alt="recent-properties-5" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-6.png' %}" alt="recent-properties-6" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-4.png' %}" alt="recent-properties-4" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+								</div>
+								<div class="item">
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-1.png' %}" alt="recent-properties-1" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-2.png' %}" alt="recent-properties-2" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-3.png' %}" alt="recent-properties-3" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-4.png' %}" alt="recent-properties-4" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-5.png' %}" alt="recent-properties-5" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-6.png' %}" alt="recent-properties-6" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+								</div>
+							</div>
+							<ol class="carousel-indicators">
+							    <li data-target="#myCarousel4" data-slide-to="0" class="active"> </li>
+							    <li data-target="#myCarousel4" data-slide-to="1"> </li>
+							    <li data-target="#myCarousel4" data-slide-to="2"> </li>
+							</ol>
+						</div>
+						<div id="myCarousel5" data-target="LandAndPlot" class="carousel slide carousel-slide-recent-property" data-ride="carousel" data-interval="false">
+							<div class="carousel-inner" role="listbox">
+    							<div class="item active">
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-3.png' %}" alt="recent-properties-3" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-4.png' %}" alt="recent-properties-4" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-1.png' %}" alt="recent-properties-1" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-2.png' %}" alt="recent-properties-2" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-5.png' %}" alt="recent-properties-5" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-6.png' %}" alt="recent-properties-6" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+								</div>
+								<div class="item">
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-2.png' %}" alt="recent-properties-2" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-3.png' %}" alt="recent-properties-3" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-1.png' %}" alt="recent-properties-1" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-4.png' %}" alt="recent-properties-4" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-5.png' %}" alt="recent-properties-5" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-6.png' %}" alt="recent-properties-6" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+								</div>
+								<div class="item">
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-6.png' %}" alt="recent-properties-6" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-1.png' %}" alt="recent-properties-1" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-2.png' %}" alt="recent-properties-2" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-4.png' %}" alt="recent-properties-4" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-5.png' %}" alt="recent-properties-5" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+									<div class="col-sm-6 col-md-4 col-lg-4">
+										<div class="image-with-label">
+											<img src="{% static 'images/recent-property-3.png' %}" alt="recent-properties-3" class="img-responsive">
+											<label>On Sale</label>
+										</div>
+										<a href="index.html#"><h6>Lusaka west, Lusaka.</h6></a>
+										<span class="recent-properties-address">Lusaka City</span>
+										<p class="recent-properties-price">K530,600</p>
+									</div>
+								</div>
+							</div>
+							<ol class="carousel-indicators">
+							    <li data-target="#myCarousel5" data-slide-to="0" class="active"> </li>
+							    <li data-target="#myCarousel5" data-slide-to="1"> </li>
+							    <li data-target="#myCarousel5" data-slide-to="2"> </li>
+							</ol>
+						</div>
+					</div>
+					<div class="multiple-get-in-touch">
+						<div class="multiple-get-in-touch-inner">
+							<img src="{% static 'images/getintouch.png' %}" alt="Get in touch" />
+							<div class="row">
+								<div class="col-md-7 col-sm-12 multiple-get-in-touch-description">
+									<h3>LOOKING TO FIND A PLOT OR A HOME?</h3>
+									<p>Diamond Equity is the best match for you,get started by giving us a call.</p>
+								</div>
+								<div class="col-md-5 col-sm-12">
+									<div class="row">
+										<div class="col-md-6 col-sm-8 multiple-get-in-touch-contact">
+											<div class="contact_detial">
+												<div class="phone_icon">
+													<i class="fa fa-phone"> </i>
+												</div>
+												<div class="phone_number">
+													<h5>call us now</h5>
+													<h2 class="phone_number_h2"><h4>+260 211-269-577</h4></h2>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6 col-sm-4 multiple-get-in-touch-button">
+											<a href="contact.html">GET IN TOUCH</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="multiple-people-to-say">
+				<div class="container">
+					<h3 class="section-heading people-to-say">What People have to say</h3>
+					<div class="row">
+						<div class="col-sm-6 col-md-4 col-lg-4">
+							<div class="people-message">
+								<div class="div-quote-img">
+									<img src="{% static 'images/quote.png' %}" alt="quote">
+								</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adip iscing elit. Sed tempor arcu non ligula conv allis, vel tincidunt ipsum posuere. Fusce sodales lacus ut pellentes sollicitudin. Duis iaculis, arcu ut hendrerit pharetra.</p>
+							</div>
+							<div>
+								<img src="{% static 'images/people-1.png' %}" alt="people-1">
+								<span class="people-name">diamondequity repr,</span>
+								<span class="people-position">Appstore</span>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-4">
+							<div class="people-message">
+								<div class="div-quote-img">
+									<img src="{% static 'images/quote.png' %}" alt="quote">
+								</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adip iscing elit. Sed tempor arcu non ligula conv allis, vel tincidunt ipsum posuere. Fusce sodales lacus ut pellentes sollicitudin. Duis iaculis, arcu ut hendrerit pharetra.</p>
+							</div>
+							<div>
+								<img src="{% static 'images/people-2.png' %}" alt="people-2">
+								<span class="people-name">diamondequity repr,</span>
+								<span class="people-position">Appstore</span>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-4">
+							<div class="people-message">
+								<div class="div-quote-img">
+									<img src="{% static 'images/quote.png' %}" alt="quote">
+								</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adip iscing elit. Sed tempor arcu non ligula conv allis, vel tincidunt ipsum posuere. Fusce sodales lacus ut pellentes sollicitudin. Duis iaculis, arcu ut hendrerit pharetra.</p>
+							</div>
+							<div>
+								<img src="images/people-3.png" alt="people-3">
+								<span class="people-name">diamondequity repr,</span>
+								<span class="people-position">Appstore</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="multiple-recent-posts">
+				<div class="container">
+					<h3 class="section-heading">PAYMENT PLANS</h3>
+					<div class="row">
+                        <!-- <div class="col-sm-3 col-md-4 col-lg-4"> -->
+						<div class="col-md-6">
+							<!-- <img src="{% static 'images/blog-1.png" alt="blog-1' %}" class="img-responsive"> -->
+							<h6 class="multiple-blog-title">KAKUNKA ESTATES</h6>
+                            <ul class="list-group">
+    							<li class="list-group-item"><span>3 months K105</span></a><a href="index.html#"><span>	PER SQUARE METER(40x25)</span></li>
+                                <li class="list-group-item"><span>12 months K110</span></a><a href="index.html#"><span>	PER SQUARE METER</span></li>
+                                <li class="list-group-item"><span>18 months K115</span></a><a href="index.html#"><span>	PER SQUARE METER</span></li>
+                                <li class="list-group-item"><span>24 months K120</span></a><a href="index.html#"><span>	PER SQUARE METER</span></li>
+                            </ul>
+						</div>
+						<div class="col-md-6">
+							<!-- <img src="{% static 'images/blog-2.png" alt="blog-2' %}" class="img-responsive"> -->
+							<h6 class="multiple-blog-title">CHIFWEMA</h6>
+                            <ul class="list-group">
+                                <li class="list-group-item"><span>1103sqm (44x25)</span></a><a href="index.html#"><span>	ZMK 126,845.00</span></li>
+                                <li class="list-group-item"><span>1189sqm (37x32)</span></a><a href="index.html#"><span>	ZMK 136,735.00</span></li>
+                                <li class="list-group-item"><span>1209sqm (37X33)</span></a><a href="index.html#"><span>	ZMK 139,035.00</span></li>
+                                <li class="list-group-item"><span>1376sqm (47x29)</span></a><a href="index.html#"><span>	ZMK 158,240.00</span></li>
+                                <p class="multiple-blog-overview">ALL THE ABOVE PAYMENTS REQUIRE A 20% DEPOSIT</p>
+
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class="multiple-blog-title">LUSAKA WEST</h6>
+							<!-- <img src="{% static 'images/blog-3.png" alt="blog-3' %}" class="-responsive"> -->
+                            <ul class="list-group">
+                                <li class="list-group-item"><span>3 months</span></a><a href="index.html#"><span>  K60,000</span></li>
+                                <li class="list-group-item"><span>12 months</span></a><a href="index.html#"><span>  K65,000</span></li>
+                                <li class="list-group-item"><span>18 months</span></a><a href="index.html#"><span>	K70,000</span></li>
+                                <li class="list-group-item"><span>24 months</span></a><a href="index.html#"><span>	K75,000</span></li>
+                                <li class="list-group-item"><span>36 months</span></a><a href="index.html#"><span>	K80,000</span></li>
+                            </ul>
+						</div>
+                        <div class="col-md-6">
+							<!-- <img src="{% static 'images/blog-3.png" alt="blog-3' %}" class="img-responsive"> -->
+							<h6 class="multiple-blog-title">STATE LODGE</h6>
+                            <ul class="list-group">
+                                <li class="list-group-item"><span>3 months</span></a><a href="index.html#"><span>  K25,000</span></li>
+                                <li class="list-group-item"><span>12 months</span></a><a href="index.html#"><span>  K255,000</span></li>
+                                <li class="list-group-item"><span>18 months</span></a><a href="index.html#"><span>	K260,000</span></li>
+                                <li class="list-group-item"><span>24 months</span></a><a href="index.html#"><span>	K265,000</span></li>
+                                <li class="list-group-item"><span>36 months</span></a><a href="index.html#"><span>	K270,000</span></li>
+                            </ul>
+                        </div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="multiple-valuable-clients-area">
+				<div class="container">
+					<h3 class="section-heading">Valuable Clients</h3>
+					<div class="row">
+						<div class="col-md-12 col-sm-12 col-lg-12" id="multiple-valuable-clients-img-area">
+							<img src="{% static 'images/valuable-clients-1.png' %}" alt="valuable-clients-1">
+							<img src="{% static 'images/valuable-clients-2.png' %}" alt="valuable-clients-2">
+							<img src="{% static 'images/valuable-clients-3.png' %}" alt="valuable-clients-3">
+							<img src="{% static 'images/valuable-clients-4.png' %}" alt="valuable-clients-4">
+							<img src="{% static 'images/valuable-clients-5.png' %}" alt="valuable-clients-5">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="multiple-location-detail">
+				<div class="multiple-location-detail-inner">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-8 col-sm-7 col-xs-12 multiple-locations">
+								<h3 class="multiple-location-title">Location Details</h3>
+								<!-- <div class="multiple-location-map"> -->
+									<!-- <div id="googleMap" style="width:100%;height:100%;"></div> -->
+								<!-- </div> -->
+								<div class="row">
+									<div class="col-md-6 col-sm-6 col-xs-12 multiple-address-area">
+										<div class="multiple-address">
+											<p>
+                                                <ul>
+												<li>*SERVICED WITH SEWER RETICULATION</li>
+                                                <li>* ELECTRICITY ON SITE</li>
+                                                <li>*WATER RETICULATION</li>
+                                                <li>*ACCESS ROADS</li>
+                                            </ul>
+											</p>
+											<p>
+												Plot No. 5, Gizenga Road, Woodlands
+                                                P.O Box 30805, Lusaka, Zambia 10101
+                                                Mobile: +260 966 882 205
+											</p>
+											<p>
+												Lusaka, Zambia.
+											</p>
+										</div>
+										<div class="multiple-contact-detail">
+											<p>
+												<span>Tell:</span> : +260-211-269-577
+											</p>
+											<p>
+												<span>Email</span> : <a href="#">info@diamondequity-zambia.com</a>
+											</p>
+										</div>
+									</div>
+									<div class="col-md-4 col-sm-4 col-xs-12 multiple-time-detail">
+										<h6>Opening Hours</h6>
+										<p>
+											Monday - Friday : 9 am to 6 pm
+										</p>
+										<p>
+											Saturday - Sunday : 9 am to 2 pm
+										</p>
+										<div class="multiple-schedule_visit">
+											<a href="contact.html">Let us call you</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-5 col-xs-12" id="multiple-contact-part">
+								<div class="multiple-contact-agent">
+									<h3>Contact our agent</h3>
+									<div class="row multiple-agent-row">
+										<div class="col-md-4 col-xs-4">
+											<img src="images/agent-photo.jpg" alt="agent-photo">
+										</div>
+										<div class="col-md-8 col-xs-8">
+											<h3 class="multiple-agent-name">diamondequity agent</h3>
+											<p class="multiple-certified-agent">
+												any certification name
+											</p>
+											<p>
+												<span class="glyphicon glyphicon-earphone"></span> 604-786-4440
+											</p>
+											<p>
+												<span class="glyphicon glyphicon-envelope"></span><a class="multiple-mail-link" href="mailto:johnathan@gmail.com">diamondequityagent@diamondequity-zambia.com</a>
+											</p>
+										</div>
+									</div>
+									<div class="multiple-agent-form">
+										<h3>SEND A QUICK MESSAGE TO US</h3>
+										<form name="contact_form" method="post" action="http://dreamvilla.fortune-creations.com/dreamvilla-multiple/functions.php">
+											<input type="text" id="fname" name="full_name" placeholder="Full Name" required />
+											<input type="number" id="pnumber" name="phone_number" placeholder="Phone Number" required />
+											<input type="email" id="emailid" name="email_address" placeholder="Email Address" required />
+											<textarea placeholder="Message" name="message" required></textarea>
+											<input type="submit" name="sendmessage" class="multiple-send-message" value="SUBMIT NOW" />
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row multiple-copyright-area">
+						<div class="col-sm-12">
+							<p class="multiple-copyright-text">
+								Copyright 2017. Diamond Equity.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Property video -->
+		<div id="property-video-model" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">
+							&times;
+						</button>
+						<h4 class="modal-title">Property Video</h4>
+					</div>
+					<div class="modal-body">
+						<video controls>
+							<source src="video/775439.mp4" type="video/mp4">
+							Your browser does not support HTML5 video.
+						</video>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="{% static 'js/jquery-2.1.4.min.js' %}"></script>
+		<script src="{% static 'js/bootstrap.min.js' %}"></script>
+		<script src="{% static 'http://maps.googleapis.com/maps/api/js' %}"></script>
+		<script src="{% static 'js/google-map.js' %}"></script>
+		<script src="{% static 'js/slider.js' %}"></script>
+		<script src="{% static 'js/custom.js' %}"></script>
+		<script src="{% static 'js/formsubmit.js' %}"></script>
+	</body>
+</html>

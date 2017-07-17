@@ -1,0 +1,520 @@
+{% load static from staticfiles %}
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="Residency theme">
+		<meta name="keywords" content="Residency,sale,buy,rent,pg,house,villa,apartment">
+		<meta name="author" content="Fortune Creations">
+		<meta name="viewport" content="width=device-width">
+
+		<title>Property detail</title>
+
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" />
+		<link href="{% static 'css/style.css' %}" rel="stylesheet" />
+		<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+	</head>
+	<body>
+<header>
+			<div class="welcome_header">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6">
+							<h6>real estate solution for Agents and small companies</h6>
+						</div>
+						<div class="col-sm-6 text-right">
+							<ul class="welcome_header_menu">
+								<li class="">
+									<a href="property-details.html#">EN <i class="fa fa-angle-down"> </i></a>
+									<ul class="currency_selection">
+										<li><a href="property-details.html#">ENA</a> </li>
+										<li><a href="property-details.html#">ENZ</a> </li>
+										<li><a href="property-details.html#">HIN</a> </li>
+										<li><a href="property-details.html#">AFK</a> </li>
+										<li><a href="property-details.html#">DEL</a> </li>
+									</ul>
+								</li>
+								<li class="facebook_icon"><a href="property-details.html"><i class="fa fa-facebook"> </i></a> </li>
+								<li class="twitter_icon"><a href="property-details.html"><i class="fa fa-twitter"> </i></a> </li>
+								<li class="google_plus_icon"><a href="property-details.html"><i class="fa fa-google-plus"> </i></a> </li>
+								<li class="pinterest_icon"><a href="property-details.html"><i class="fa fa-pinterest"> </i></a> </li>
+								<li class="youtube_icon"><a href="property-details.html"><i class="fa fa-youtube-play"> </i></a> </li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="menu">
+						<nav class="navbar navbar-default">
+						  <div class="container-fluid">
+						    <!-- Brand and toggle get grouped for better mobile display -->
+						    <div class="navbar-header">
+						      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						        <span class="sr-only">Toggle navigation</span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+						      </button>
+						      <a class="navbar-brand" href="http://dreamvilla.fortune-creations.com/dreamvilla-multiple/index.html">
+						      	<img src="images/logo.png" alt="logo">
+						      </a>
+						    </div>
+
+						    <!-- Collect the nav links, forms, and other content for toggling -->
+						    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						      <ul class="nav navbar-nav nav_link pull-right">
+						        <li><a href="property-details.html#" class="drop_down">HOME </a>
+						        	<ul class="submenu">
+						        	   <li><a href="http://dreamvilla.fortune-creations.com/dreamvilla-multiple/index.html">Home</a> </li>
+							           <li><a href="homepage-variation-1.html">homepage variation 1</a> </li>
+							        </ul>
+							    </li>
+						        <li><a href="property-details.html#" class="drop_down">PAGES </a>
+						        	<ul class="submenu">
+							           <li><a href="about_us.html">About Us</a> </li>
+							           <li><a href="property-details.html">Property Detail</a> </li>
+							           <li><a href="blog.html">Blog</a> </li>
+							           <li><a href="blog_post.html">Blog Detail</a> </li>
+							           <li><a href="gallery_2_columns.html">Gallery 2 Columns</a> </li>
+							           <li><a href="gallery_3_columns.html">Gallery 3 Columns</a> </li>
+							           <li><a href="shortcodes.html">Shortcodes</a> </li>
+							           <li><a href="page_with_left_sidebar.html">page with left sidebar</a> </li>
+							           <li><a href="page_with_right_sidebar.html">page with right sidebar</a> </li>
+							           <li><a href="faq.html">FAQ</a> </li>
+							           <li><a href="contact.html">Contact us</a> </li>
+							        </ul>
+						        </li>
+						        <li><a href="property-details.html#" class="drop_down">PROPERTIES</a>
+						        	<ul class="submenu">
+							           <li><a href="property-listing-list.html">List View</a> </li>
+							           <li><a href="property-listing-grid.html">Grid View</a> </li>
+							           <li><a href="property-listing-map.html">Map View</a> </li>
+							           <li><a href="property-details.html">Property Detail</a> </li>
+							        </ul>
+						        </li>
+						        <li><a href="property-details.html#" class="drop_down">GALLERY </a>
+						        	<ul class="submenu">
+							           <li><a href="gallery_2_columns.html">Gallery 2 Columns</a> </li>
+							           <li><a href="gallery_3_columns.html">Gallery 3 Columns</a> </li>
+							        </ul>
+						        </li>
+						        <li><a href="property-details.html#" class="drop_down">BLOG </a>
+						        	<ul class="submenu">
+							           <li><a href="blog.html">Blog</a> </li>
+							           <li><a href="blog_post.html">Blog Post</a> </li>
+							        </ul>
+						        </li>
+						        <li><a href="contact.html">CONTACT </a> </li>
+						      </ul>
+						    </div><!-- /.navbar-collapse -->
+						  </div><!-- /.container-fluid -->
+						</nav>
+				</div>
+				<div class="contact_info">
+				    <div class="contact_detial">
+				  		<div class="phone_icon">
+				  			<i class="fa fa-phone"> </i>
+				  		</div>
+				  		<div class="phone_number">
+				  			<h5>call us now</h5>
+				  			<h2 class="phone_number_h2">215-123-4567</h2>
+				  		</div>
+				  	</div>
+				</div>
+			</div>
+   			<div class="inner-page-property-details-header-area">
+				<div class="property-detail-banner">
+					<div class="header_slider_container">
+						<img alt="banner-image" class="img-responsive image_header active_image" src="{% static 'images/propert-detail1.jpg' %}">
+						<img alt="banner-image" class="img-responsive image_header" src="{% static 'images/propert-detail2.jpg' %}">
+						<button class="previous_image_btn" type="button">
+							<span class="glyphicon glyphicon-menu-left"> </span>
+						</button>
+						<button class="next_image_btn" type="button">
+							<span class="glyphicon glyphicon-menu-right"> </span>
+						</button>
+						<div class="shadow"> </div>
+					</div>
+					<div class="property-detail-info">
+						<div class="container">
+							<div class="row">
+									<div class="col-sm-12 col-xs-12 col-md-8 col-lg-8">
+									<div class="row">
+										<div class="col-xs-12 col-sm-7 col-md-7"><h1>Florida 5, Pinecrest, FL</h1></div>
+										<div class="col-xs-12 col-sm-3 col-md-3"><label class="property_type">On Sale</label></div>
+									</div>
+									<p class="property-detail-address"><i class="fa fa-map-marker"> </i>New York City / Brooklyn</p>
+									<div class="row property-detail-facility">
+										<div class="col-xs-12 col-sm-3 col-md-3"><label class="property-detail-price">$220,000</label></div>
+										<div class="col-xs-12 col-sm-3 col-md-3 property-detail-facility-icon"><img src="images/svg/bath.svg" class="svgImages" alt="bathroom"><label>Bathrooms</label><span>2</span></div>
+										<div class="col-xs-12 col-sm-3 col-md-3 property-detail-facility-icon"><img src="images/svg/bed.svg" class="svgImages" alt="bedroom"><label>Beds</label><span>2</span></div>
+										<div class="col-xs-12 col-sm-3 col-md-3 property-detail-facility-icon"><img src="images/svg/warehouse.svg" class="svgImages" alt="garage"><label>Garages</label><span>1</span></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section>
+			<div class="property-detail">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 col-md-8 property-detail-inner">
+							<div class="row">
+								<div class="col-lg-12 col-md-12">
+									<h4>Description</h4>
+									<p>Aliquam vitae sem id sem efficitur interdum. Phasellus ut nulla nisi. Sed varius, lacus ac laoreet pharetra, metus quam rutrum enim, quis rhoncu estibulum sed maximus elit. Quisque semper facilisis sem, sed tempus nisl laoreet sed. Donec ex turpis, pharetra luctus lacus quis, eleifend.</p>
+									<p>Many desktop publishing fact thagr or reader will distracted packages and webing page  of their publishing for lorem ipsum' will their infancy.</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-6 col-md-6">
+									<h4>Essential Information</h4>
+									<div class="row">
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 inofrmaition-label">MLS</div>
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 information-value">V254680</div>
+
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 inofrmaition-label">Price</div>
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 information-value">$251,325</div>
+
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 inofrmaition-label">Bedrooms</div>
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 information-value">5</div>
+
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 inofrmaition-label">Bathrooms</div>
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 information-value">4.00</div>
+
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 inofrmaition-label">Full Baths</div>
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 information-value">3</div>
+
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 inofrmaition-label">Half Baths</div>
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 information-value">2</div>
+
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 inofrmaition-label">Square Footage</div>
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 information-value">2,012</div>
+
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 inofrmaition-label">Lot SOFT</div>
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 information-value">255</div>
+
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 inofrmaition-label">Year Built</div>
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 information-value">1656</div>
+
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 inofrmaition-label">Type</div>
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 information-value">Single Family</div>
+
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 inofrmaition-label">Style</div>
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 information-value">Bi-Level</div>
+
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 inofrmaition-label">Status</div>
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 information-value">Active</div>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6">
+									<h4>Amenities</h4>
+									<div class="row amenities-info">
+										<div class="col-lg-1 col-md-1 col-sm-2 col-xs-2 inofrmaition-label"><img src="images/svg/area_1.svg" class="svgImages" alt="space"/></div>
+										<div class="col-lg-11 col-md-11 col-sm-10 col-xs-10 information-value">Private space</div>
+
+										<div class="col-lg-1 col-md-1 col-sm-2 col-xs-2 inofrmaition-label"><img src="images/svg/signal-tower.svg" alt="wifi" class="svgImages"></div>
+										<div class="col-lg-11 col-md-11 col-sm-10 col-xs-10 information-value">Wifi</div>
+
+										<div class="col-lg-1 col-md-1 col-sm-2 col-xs-2 inofrmaition-label"><img src="images/svg/ball-basketball.svg" class="svgImages" alt="Basketball Court"/> </div>
+										<div class="col-lg-11 col-md-11 col-sm-10 col-xs-10 information-value">Basketball court</div>
+
+										<div class="col-lg-1 col-md-1 col-sm-2 col-xs-2 inofrmaition-label"><img src="images/svg/fire-lamp-2.svg" class="svgImages" alt="fire"/></div>
+										<div class="col-lg-11 col-md-11 col-sm-10 col-xs-10 information-value">Fireplace</div>
+
+										<div class="col-lg-1 col-md-1 col-sm-2 col-xs-2 inofrmaition-label"><img src="images/svg/house_lock.svg" class="svgImages" alt="Doorman"/> </div>
+										<div class="col-lg-11 col-md-11 col-sm-10 col-xs-10 information-value">Doorman</div>
+
+										<div class="col-lg-1 col-md-1 col-sm-2 col-xs-2 inofrmaition-label"><img src="images/svg/swiming_pool.svg" class="svgImages" alt="swmming pool"/></div>
+										<div class="col-lg-11 col-md-11 col-sm-10 col-xs-10 information-value">Swimming Pool</div>
+
+										<div class="col-lg-1 col-md-1 col-sm-2 col-xs-2 inofrmaition-label"><img src="images/svg/dumbbell-1.svg" class="svgImages" alt="gym"/></div>
+										<div class="col-lg-11 col-md-11 col-sm-10 col-xs-10 information-value">Gym</div>
+
+										<div class="col-lg-1 col-md-1 col-sm-2 col-xs-2 inofrmaition-label"><img src="images/svg/warehouse.svg" class="svgImages" alt="parking"/></div>
+										<div class="col-lg-11 col-md-11 col-sm-10 col-xs-10 information-value">Parking</div>
+
+										<div class="col-lg-1 col-md-1 col-sm-2 col-xs-2 inofrmaition-label"><img src="images/svg/washer.svg" class="svgImages" alt="laundry"/></div>
+										<div class="col-lg-11 col-md-11 col-sm-10 col-xs-10 information-value">Laundry</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-6 col-md-6">
+									<h4>Interior</h4>
+									<div class="row">
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 inofrmaition-label">Heating</div>
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 information-value">Forced Air-1</div>
+
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 inofrmaition-label">Basement</div>
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 information-value">Fully Finished</div>
+
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 inofrmaition-label">Basement Type</div>
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 information-value">Full</div>
+									</div>
+
+									<h4>Exterior</h4>
+									<div class="row">
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 inofrmaition-label">Exterior</div>
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 information-value">Vinyl</div>
+
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 inofrmaition-label">Roof</div>
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 information-value">Asphalt Shingles</div>
+
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 inofrmaition-label">Construction</div>
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 information-value">Woodframe</div>
+
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 inofrmaition-label">Foundation</div>
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 information-value">Concrete</div>
+
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 inofrmaition-label">Frunt Exposure</div>
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 information-value">N</div>
+
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 inofrmaition-label">Fontage Metres</div>
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 information-value">9,000</div>
+									</div>
+
+									<h4>Flooring</h4>
+									<div class="row">
+										<div class="col-lg-12 col-md-12">
+											<p>Carpet, Laminate Flooring, Linoleum</p>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-6 col-md-6">
+									<h4>Room Dimensions</h4>
+									<div class="row">
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 inofrmaition-label">Dining Room</div>
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 information-value">8x8</div>
+
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 inofrmaition-label">Kitchen</div>
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 information-value">10x12</div>
+
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 inofrmaition-label">Living Room</div>
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 information-value">12x15</div>
+
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 inofrmaition-label">Master BedRoom</div>
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 information-value">12x10.2</div>
+
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 inofrmaition-label">Bedroom 3</div>
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 information-value">11x9</div>
+
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 inofrmaition-label">Bedroom 2</div>
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 information-value">10x12.3</div>
+
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 inofrmaition-label">Bedroom 5</div>
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 information-value">12x12</div>
+
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 inofrmaition-label">Other Room 1</div>
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 information-value">8x8</div>
+
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 inofrmaition-label">Other Room 2</div>
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 information-value">12x10</div>
+
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 inofrmaition-label">Other Room 3</div>
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 information-value">12x11</div>
+
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 inofrmaition-label">Other Room 4</div>
+										<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 information-value">14x15</div>
+									</div>
+
+									<h4>Goods Included</h4>
+									<div class="row">
+										<div class="col-lg-12 col-md-12">
+											<p>Dryer, Dishwasher-Build-in, Hood garage Opener-1 Control, Washer, Window Covering-All, Blinds-Roll Up; Pull Down, Fan-Celling, refrigeratores-Two, Stoves-Two</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-12 col-md-12">
+									<h4>Near by Places</h4>
+									<div class="row">
+										<div class="col-md-6 col-sm-12 col-xs-12" id="near-by-place-detail"> </div>
+										<div class="col-md-6 col-sm-12 col-xs-12 near-location-map">
+											<div class="near-location-map">
+												<div id="googleMapNearestPlaces" style="width:100%;height:100%;"> </div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-12 col-md-12">
+									<div class="get-direction">
+										<h4>Get Directions</h4>
+										<div id="GoogleMapGetDirections" style="width:100%;height:285px;"></div>
+										<form>
+											<input type="text" id="GetDirectionsAddress" placeholder="From Address" />
+											<button type="button" id="GetDirections">Get Directions</button>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4">
+							<div class="agent-contact-sidebar">
+								<div class="agent-profile-sidebar">
+									<img src="images/agent.jpg" alt="Agent Image" />
+									<h4>John Deo</h4>
+									<p>Agent of Property</p>
+								</div>
+								<div class="agent-contact-detail-sidebar">
+									<p><i class="fa fa-phone"> </i> 800-1800-24657</p>
+									<p><i class="fa fa-envelope"></i><a href="http://dreamvilla.fortune-creations.com/dreamvilla-multiple/johan@realestate.com">johan@realestate.com</a></p>
+								</div>
+								<div class="agent-contact-form-sidebar">
+									<h5>Request Inquiry</h5>
+									<form name="contact_form" method="post" action="http://dreamvilla.fortune-creations.com/dreamvilla-multiple/functions.php">
+										<input type="text" id="fname" name="full_name" placeholder="Full Name" required />
+										<input type="number" id="pnumber" name="phone_number" placeholder="Phone Number" required />
+										<input type="email" id="emailid" name="email_address" placeholder="Email Address" required />
+										<textarea placeholder="Message" name="message" required></textarea>
+										<input type="submit" name="sendmessage" class="multiple-send-message" value="Submit Request" />
+									</form>
+								</div>
+							</div>
+
+							<div class="advertisement-sidebar">
+								<a href="http://themeforest.net/item/dreamvilla-single-property-wordpress-theme/12608598?ref=fortunecreations" target="_blank"><img src="images/advertisement.jpg" alt="advertisement-sidebar" class="img-responsive" /></a>
+							</div>
+
+							<div class="property-video-sidebar">
+								<h4>Property Video</h4>
+								<a href="property-details.html#" data-toggle="modal" data-target="#property-video-model"><img class="img-responsive" alt="about video" src="images/about_video2.png"></a>
+							</div>
+
+							<div class="recent-proeprties-sidebar">
+								<h4>Similar Properties</h4>
+								<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+									<div class="carousel-inner" role="listbox">
+										<div class="multiple-recent-properties item active">
+											<div class="image-with-label">
+												<img class="img-responsive" alt="recent-properties-1" src="{% static 'images/recent-property-1.png' %}">
+												<label>On Sale</label>
+											</div>
+											<a href="property-details.html#"><h6>Florida 5, Pinecrest, FL</h6></a>
+											<span class="recent-properties-address">New York City / Brooklyn</span>
+											<p class="recent-properties-price">$530,600</p>
+
+											<div class="image-with-label">
+												<img class="img-responsive" alt="recent-properties-2" src="{% static 'images/recent-property-2.png' %}">
+												<label>On Sale</label>
+											</div>
+											<a href="property-details.html#"><h6>Florida 5, Pinecrest, FL</h6></a>
+											<span class="recent-properties-address">New York City / Brooklyn</span>
+											<p class="recent-properties-price">$530,600</p>
+										</div>
+										<div class="multiple-recent-properties item">
+											<div class="image-with-label">
+												<img class="img-responsive" alt="recent-properties-2" src="{% static 'images/recent-property-2.png' %}">
+												<label>On Sale</label>
+											</div>
+											<a href="property-details.html#"><h6>Florida 5, Pinecrest, FL</h6></a>
+											<span class="recent-properties-address">New York City / Brooklyn</span>
+											<p class="recent-properties-price">$530,600</p>
+
+											<div class="image-with-label">
+												<img class="img-responsive" alt="recent-properties-1" src="{% static 'images/recent-property-1.png' %}">
+												<label>On Sale</label>
+											</div>
+											<a href="property-details.html#"><h6>Florida 5, Pinecrest, FL</h6></a>
+											<span class="recent-properties-address">New York City / Brooklyn</span>
+											<p class="recent-properties-price">$530,600</p>
+										</div>
+									</div>
+
+									<div class="left-right-arrow">
+									  <a class="left carousel-control" href="property-details.html#myCarousel" role="button" data-slide="prev">
+									  	<img class="pull-left" alt="arrow left" src="{% static 'images/left-arrow.png' %}">
+									  </a>
+									  <a class="right carousel-control" href="property-details.html#myCarousel" role="button" data-slide="next">
+									    <img class="pull-right" alt="arrow right" src="{% static 'images/right-arrow.png' %}">
+									  </a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Property video -->
+		<div id="property-video-model" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">
+							&times;
+						</button>
+						<h4 class="modal-title">Property Video</h4>
+					</div>
+					<div class="modal-body">
+						<video controls>
+							<source src="video/775439.mp4" type="video/mp4">
+							Your browser does not support HTML5 video.
+						</video>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="footer">
+				<span class="footer_copyright_text">Copyright 2015.All Rights Reserved by DreamVilla - </span><span class="footer_theme_title">Multi Property Theme</span>
+			</div>
+		</footer>
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;signed_in=true&amp;libraries=places"></script>
+		<script src="js/google-map.js"></script>
+		<script src="js/custom.js"></script>
+		<script src="js/neary-by-place.js"></script>
+		<script src="js/slider.js"></script>
+		<script>
+			$(document).ready(function(){
+				/*
+			     * Replace all SVG images with inline SVG
+			     */
+		        $('.svgImages').each(function(){
+		            var $img = jQuery(this);
+		            var imgID = $img.attr('id');
+		            var imgClass = $img.attr('class');
+		            var imgURL = $img.attr('src');
+
+		            jQuery.get(imgURL, function(data) {
+		                // Get the SVG tag, ignore the rest
+		                var $svg = jQuery(data).find('svg');
+
+		                // Add replaced image's ID to the new SVG
+		                if(typeof imgID !== 'undefined') {
+		                    $svg = $svg.attr('id', imgID);
+		                }
+		                // Add replaced image's classes to the new SVG
+		                if(typeof imgClass !== 'undefined') {
+		                    $svg = $svg.attr('class', imgClass+' replaced-svg');
+		                }
+
+		                // Remove any invalid XML tags as per http://validator.w3.org
+		                $svg = $svg.removeAttr('xmlns:a');
+
+		                // Replace image with new SVG
+		                $img.replaceWith($svg);
+
+		            }, 'xml');
+
+		        });
+			});
+
+		</script>
+	</body>
+</html>
