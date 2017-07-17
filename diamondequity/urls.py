@@ -19,8 +19,10 @@ from django.conf.urls import url, include
 from django.contrib import admin
 
 from pages import urls as pages_urls
+from django.conf import settings
+from django.conf.urls.static import static
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^', include(pages_urls, namespace='pages')),
-]
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
