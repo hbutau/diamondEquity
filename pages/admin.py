@@ -8,6 +8,8 @@ from .models import PropertyListing
 
 class PropertyListingModelAdmin(admin.ModelAdmin):
     list_display = ['name', 'location', 'cost', 'status', 'timestamp']
+    list_filter = ('name', 'location', 'status',)
+    search_fields = ('name', 'location',)
     class Meta:
         model = PropertyListing
 admin.site.register(PropertyListing, PropertyListingModelAdmin)
