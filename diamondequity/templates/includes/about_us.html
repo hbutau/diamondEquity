@@ -1,0 +1,30 @@
+{% load staticfiles %}
+<section>
+			<div class="about-city-estate" id='aboutus'>
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+
+              {% for text in about_us %}
+              <h3 class="section-heading">{{text.title}}</h3>
+              <b>{{ text.sub_heading }}</b>
+              <br>
+              <br>
+              <p>{{ text.paragraph_text }}</p>
+              {% endfor %}
+							<!-- <h4>Our motto</h4> -->
+							<!-- <p class="banner text-center"> Location is everything</p> -->
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+							<h3 class="section-heading" id="ourclients">Some of Our Clients</h3>
+							<div class="round-members-logo">
+								<img src="{% static 'images/valuable-clients-2.png' %}" alt="round member">
+								<img src="{% static 'images/valuable-clients-3.png' %}" alt="round member">
+								<img src="{% static 'images/valuable-clients-5.png' %}" alt="round member">
+							</div>
+							<a href="index.html#" data-toggle="modal" data-target="#property-video-model"><img src="{% static 'images/about_video.png' %}" alt="sample advert video" class="img-responsive"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>

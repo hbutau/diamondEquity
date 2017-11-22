@@ -83,3 +83,9 @@ class PropertyListing(models.Model):
         ordering = ['-created_at']
         verbose_name = "Property Listing"
         verbose_name_plural = "Property Listings"
+
+
+class About(models.Model):
+    title = models.TextField()
+    sub_heading = models.TextField()
+    paragraph_text = models.TextField()
