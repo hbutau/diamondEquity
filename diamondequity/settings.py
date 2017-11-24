@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     'whitenoise.runserver_nostatic',
     'django.contrib.staticfiles',
     'pages',
+    'crispy_forms',
+    'captcha',
 ]
 
 MIDDLEWARE = [
@@ -191,6 +193,7 @@ JET_THEMES = [
 #         {'name': 'bannertype'},
 #     ]},
 # ]
+CRISPY_TEMPLATE_PACK = 'bootstrap3'
 JET_CHANGE_FORM_SIBLING_LINKS = True
 JET_INDEX_DASHBOARD = 'jet.dashboard.dashboard.DefaultIndexDashboard'
 JET_APP_INDEX_DASHBOARD = 'jet.dashboard.dashboard.DefaultAppIndexDashboard'
