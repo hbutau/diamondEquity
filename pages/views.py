@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 from __future__ import absolute_import
 
 from django.shortcuts import render, reverse
-from django.views.generic import TemplateView
+from django.views.generic import TemplateView, DetailView
 from django.core.mail import send_mail
 from django.http import HttpRequest, HttpResponseRedirect
 
@@ -12,6 +12,10 @@ from .forms import ContactForm
 
 class HomeView(TemplateView):
     template_name = 'index.html'
+
+    def  properties(self):
+        return PropertyListing.objects.all()
+
 
 
     contact_form = ContactForm()
@@ -22,6 +26,7 @@ class HomeView(TemplateView):
         context['featured_properties'] = PropertyListing.objects.all()
         context['contact_form'] = contact_form
         return context
+
 
 
 def contact(request):
@@ -39,7 +44,7 @@ def contact(request):
             # finally save the object in db
             obj.save()
 
-            # send email to pycon_zim@gmail.com
+            # send email to
             subject = "Message on Contact Form "
             message = 'A message was submitted on the website\n\n'
             message += 'Name: ' + contact_form.cleaned_data['name'] + '\n'
@@ -60,4 +65,14 @@ def contact(request):
         contact_form = ContactForm()
 
         return HttpResponseRedirect(reverse('pages:index'))
+
+class PropertyDetailView(DetailView):
+
+
+    def  properties(self):
+        return PropertyListing.objects.all()
+
+    context_object_name = 'property'
+    model = PropertyListing
+    template_name = 'property_detail.html'
 
